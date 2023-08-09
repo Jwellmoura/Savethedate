@@ -14,6 +14,7 @@
     background-image: url(./img/Fundo.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: none;
 }
 
 .titulo {
@@ -25,10 +26,10 @@
 
 .titulo__principal {
     font-family: var(--fonte-principal);
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: 30;
     color: var(--cor-principal);
-    margin: 1em 2em 0 0;
+    margin: 1em 1em 0 0;
 }
 
 .titulo__data {
@@ -36,7 +37,7 @@
     font-size: 0.8rem;
     font-weight: 30;
     color: var(--cor-principal);
-    margin: 0 6em 0 0;
+    margin: 0 7em 0 0;
 }
 
 .Nomes {
@@ -46,7 +47,7 @@
 
 .Nomes__principal {
     font-family: var(--fonte-secundaria);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 10;
     color: var(--cor-principal);
     margin: 0.5em 0;
@@ -57,12 +58,12 @@
     flex-direction: column;
     text-align: justify;
     align-items: center;
-    margin: 0 2em;
+    margin: 0 1.5em;
 }
 
 .texto__principal {
     font-family: var(--fonte-principal);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--cor-principal);
     margin: 0.5em 0;
 }
