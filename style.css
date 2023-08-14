@@ -24,12 +24,29 @@
     align-items: flex-end;
 }
 
+.titulo-pix  {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    margin-right: 1em;
+}
+
 .titulo__principal {
     font-family: var(--fonte-principal);
     font-size: 1.7rem;
     font-weight: 30;
     color: var(--cor-principal);
     margin: 1.3em 1em 0 0;
+}
+
+.titulo__principal-pix {
+    font-family: var(--fonte-secundaria);
+    font-size: 2.5rem;
+    font-weight: 30;
+    align-items: end;
+    color: var(--cor-principal);
+    margin: 0 0.2em 0 0;
 }
 
 .titulo__data {
@@ -68,7 +85,31 @@
     margin: 0.5em 0;
 }
 
-.Icone {
+.texto__principalpix {
+    font-family: var(--fonte-principal);
+    font-size: 0.8rem;
+    color: var(--cor-principal);
+    text-align: right;
+    width: 60%;
+    margin: 0;
+}
+
+.Botão1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2em;
+}
+
+.Botão2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2em;
+}
+
+.Botão3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -81,7 +122,7 @@
 }
 
 .Botão__principal {
-    margin: 1em 0 4em 0;
+    margin: 1em 0 1em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +132,64 @@
     color: var(--cor-principal);
     text-decoration: none;
     border: 2px solid var(--cor-principal);
-    width: 60%;
+    width: 62%;
     font-family: var(--fonte-principal);
     font-size: 0.8rem;
+}
+
+.Botão__principal2 {
+    margin: 1em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1px;
+    padding: 1em;
+    color: var(--cor-principal);
+    text-decoration: none;
+    border: 2px solid var(--cor-principal);
+    width: 25%;
+    font-family: var(--fonte-principal);
+    font-size: 0.7rem;
+}
+
+.Botão__pix {
+    display: flex;
+    justify-content: start;
+    margin:0 0.4em;
+}
+
+.Botão__voltar {
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1px;
+    padding: 1em;
+    color: var(--cor-principal);
+    text-decoration: none;
+    width: 20%;
+    font-family: var(--fonte-principal);
+    font-size: 0.8rem;
+}
+
+.imagens-pix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0 0 0;
+}
+
+.pix {
+    width: 30%;
+}
+
+.textopix {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    color: var(--cor-principal);
+    margin: 0.3em 0 2em 0;
 }
 
 @media (min-width: 820px) {
